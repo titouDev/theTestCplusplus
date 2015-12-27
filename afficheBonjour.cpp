@@ -10,8 +10,8 @@
 
 #include <iostream>
 
-using namespace std;
+using namespace std; //si on ne fait pas ca, on sera oblige de faire std::cout, std::endl
 
 void affiche(){
-    cout << "Bonjour" << endl;
+    cout << "Bonjour" << endl; //permet de printer dans la console
 }
