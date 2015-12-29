@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1831C0EE1C32D86900C0C2B3 /* arrayDynamique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1831C0EC1C32D86900C0C2B3 /* arrayDynamique.cpp */; };
 		18B6F4241C3086C700664CE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F4231C3086C700664CE8 /* main.cpp */; };
 		18B6F42C1C3087AA00664CE8 /* afficheBonjour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F42A1C3087AA00664CE8 /* afficheBonjour.cpp */; };
 		18B6F42F1C308B1500664CE8 /* fileSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F42D1C308B1500664CE8 /* fileSize.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1831C0EC1C32D86900C0C2B3 /* arrayDynamique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arrayDynamique.cpp; sourceTree = "<group>"; };
+		1831C0ED1C32D86900C0C2B3 /* arrayDynamique.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = arrayDynamique.hpp; sourceTree = "<group>"; };
 		18B6F4201C3086C700664CE8 /* theTestCplusplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = theTestCplusplus; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B6F4231C3086C700664CE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		18B6F42A1C3087AA00664CE8 /* afficheBonjour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = afficheBonjour.cpp; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		18B6F4171C3086C600664CE8 = {
 			isa = PBXGroup;
 			children = (
+				1831C0EC1C32D86900C0C2B3 /* arrayDynamique.cpp */,
+				1831C0ED1C32D86900C0C2B3 /* arrayDynamique.hpp */,
 				18B6F42D1C308B1500664CE8 /* fileSize.cpp */,
 				18B6F42E1C308B1500664CE8 /* fileSize.hpp */,
 				18B6F42A1C3087AA00664CE8 /* afficheBonjour.cpp */,
@@ -131,6 +136,7 @@
 				18B6F42C1C3087AA00664CE8 /* afficheBonjour.cpp in Sources */,
 				18B6F4241C3086C700664CE8 /* main.cpp in Sources */,
 				18B6F42F1C308B1500664CE8 /* fileSize.cpp in Sources */,
+				1831C0EE1C32D86900C0C2B3 /* arrayDynamique.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
