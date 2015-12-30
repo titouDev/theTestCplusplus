@@ -12,8 +12,8 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+//using namespace std; ne jamais mettre cette ligne dans un .h
 
-double whatSize(string fileName);
+double whatSize(std::string fileName);
 
 #endif /* fileSize_hpp */
