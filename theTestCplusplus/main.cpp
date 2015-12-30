@@ -11,6 +11,7 @@
 #include "afficheBonjour.hpp"
 #include "fileSize.hpp"
 #include "arrayDynamique.hpp"
+#include "fichierExamples.hpp"
 
 int main(int argc, const char * argv[]) {
     // Appel de fonction
@@ -36,7 +37,6 @@ int main(int argc, const char * argv[]) {
     
     //Constante
     int const maConstante(10);
-    
     // impossible de faire: maConstante = 20;
     
     
@@ -45,7 +45,7 @@ int main(int argc, const char * argv[]) {
     int monArray[arraySize];
     
     //Array Tableau taille dynamique => vector
-    vector<int> monArrayDynamique(56);
+    vector<int> monArrayDynamique(15);
     cout << "Array Size: " << monArrayDynamique.size() << endl;
     
     monArrayDynamique.push_back(12); //ajoute a la fin
@@ -56,6 +56,9 @@ int main(int argc, const char * argv[]) {
     cout << &monArrayDynamique << endl; //l'adresse memoir de l'array
     
     maFonctionArrayDynamique(monArrayDynamique);
+    
+    //FichierExample
+    maFonctionExampleFichiers();
     
     return 0;
 }
