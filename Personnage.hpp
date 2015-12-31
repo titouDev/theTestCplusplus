@@ -17,7 +17,7 @@ class Personnage
     public:
     
     Personnage(std::string); //constructor. !!ne retourne rien, pas meme void
-    
+    ~Personnage(); //destructeur, appeller lorsque l'objet sera detruit
     std::string getNom() const; // const permet de specifier que la methode ne modifie pas la class
     
     private: //par convention, les variables sont TOUJOURS privees. On y accede grace a des fonctions
