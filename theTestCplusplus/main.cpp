@@ -71,11 +71,17 @@ int main(int argc, const char * argv[]) {
     
     
     //Surcharge d'operateur, pour additionner deux classes, par exemple
-    Duree duree1(0, 10, 28), duree2(0, 10, 28);
-    if (duree1 == duree2)
-    {
-        cout << "Les durees sont egales, yeeee!!!!" << endl;
-    }
+    Duree duree1(1, 45, 50), duree2(1, 15, 50), duree3 (0, 8, 20);
+    Duree resultat;
     
-    return 0;
+    duree1.afficher();
+    cout << "+" << endl;
+    duree2.afficher();
+    cout << "+" << endl;
+    duree3.afficher();
+    
+    resultat = duree1 + duree2 + duree3;
+    
+    cout << "=" << endl;
+    resultat.afficher();    return 0;
 }

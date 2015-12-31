@@ -17,6 +17,8 @@ public:
     
     Duree(int heures = 0, int minutes = 0, int secondes = 0);
     bool estEgal(Duree const& b) const;
+    Duree & operator+=(Duree const& a); //ici, on declare dans la classe
+    void afficher();
     
 private:
     
@@ -26,6 +28,8 @@ private:
 };
 
 bool operator==(Duree const& a, Duree const& b); //va permettre de comparer deux objets Duree
+bool operator!=(Duree const& a, Duree const& b);
 
+Duree operator+(Duree const& a, Duree const& b); //important, a declarer en dehors de la classe
 
 #endif /* Duree_hpp */
