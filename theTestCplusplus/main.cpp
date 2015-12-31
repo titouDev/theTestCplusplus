@@ -12,6 +12,9 @@
 #include "fileSize.hpp"
 #include "arrayDynamique.hpp"
 #include "fichierExamples.hpp"
+#include "Personnage.hpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // Appel de fonction
@@ -59,6 +62,11 @@ int main(int argc, const char * argv[]) {
     
     //FichierExample
     maFonctionExampleFichiers();
+    
+    
+    //Class Example
+    Personnage monPerso("jeanLouis");
+    cout << monPerso.getNom() << endl;
     
     return 0;
 }

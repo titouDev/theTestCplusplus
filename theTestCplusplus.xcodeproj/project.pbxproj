@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1831C0EE1C32D86900C0C2B3 /* arrayDynamique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1831C0EC1C32D86900C0C2B3 /* arrayDynamique.cpp */; };
 		1831C0F11C32FAD300C0C2B3 /* fichierExamples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1831C0EF1C32FAD300C0C2B3 /* fichierExamples.cpp */; };
+		1831C0F41C35836D00C0C2B3 /* Personnage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1831C0F21C35836D00C0C2B3 /* Personnage.cpp */; };
 		18B6F4241C3086C700664CE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F4231C3086C700664CE8 /* main.cpp */; };
 		18B6F42C1C3087AA00664CE8 /* afficheBonjour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F42A1C3087AA00664CE8 /* afficheBonjour.cpp */; };
 		18B6F42F1C308B1500664CE8 /* fileSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F42D1C308B1500664CE8 /* fileSize.cpp */; };
@@ -31,6 +32,8 @@
 		1831C0ED1C32D86900C0C2B3 /* arrayDynamique.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = arrayDynamique.hpp; sourceTree = "<group>"; };
 		1831C0EF1C32FAD300C0C2B3 /* fichierExamples.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fichierExamples.cpp; sourceTree = "<group>"; };
 		1831C0F01C32FAD300C0C2B3 /* fichierExamples.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fichierExamples.hpp; sourceTree = "<group>"; };
+		1831C0F21C35836D00C0C2B3 /* Personnage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Personnage.cpp; sourceTree = "<group>"; };
+		1831C0F31C35836D00C0C2B3 /* Personnage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Personnage.hpp; sourceTree = "<group>"; };
 		18B6F4201C3086C700664CE8 /* theTestCplusplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = theTestCplusplus; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B6F4231C3086C700664CE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		18B6F42A1C3087AA00664CE8 /* afficheBonjour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = afficheBonjour.cpp; sourceTree = "<group>"; };
@@ -53,6 +56,8 @@
 		18B6F4171C3086C600664CE8 = {
 			isa = PBXGroup;
 			children = (
+				1831C0F21C35836D00C0C2B3 /* Personnage.cpp */,
+				1831C0F31C35836D00C0C2B3 /* Personnage.hpp */,
 				1831C0EF1C32FAD300C0C2B3 /* fichierExamples.cpp */,
 				1831C0F01C32FAD300C0C2B3 /* fichierExamples.hpp */,
 				1831C0EC1C32D86900C0C2B3 /* arrayDynamique.cpp */,
@@ -143,6 +148,7 @@
 				1831C0F11C32FAD300C0C2B3 /* fichierExamples.cpp in Sources */,
 				18B6F42F1C308B1500664CE8 /* fileSize.cpp in Sources */,
 				1831C0EE1C32D86900C0C2B3 /* arrayDynamique.cpp in Sources */,
+				1831C0F41C35836D00C0C2B3 /* Personnage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
