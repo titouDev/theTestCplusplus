@@ -13,6 +13,7 @@
 #include "arrayDynamique.hpp"
 #include "fichierExamples.hpp"
 #include "Personnage.hpp"
+#include "Duree.hpp"
 
 using namespace std;
 
@@ -67,6 +68,14 @@ int main(int argc, const char * argv[]) {
     //Class Example
     Personnage monPerso("jeanLouis");
     cout << monPerso.getNom() << endl;
+    
+    
+    //Surcharge d'operateur, pour additionner deux classes, par exemple
+    Duree duree1(0, 10, 28), duree2(0, 10, 28);
+    if (duree1 == duree2)
+    {
+        cout << "Les durees sont egales, yeeee!!!!" << endl;
+    }
     
     return 0;
 }
