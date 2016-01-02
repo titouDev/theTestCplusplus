@@ -88,5 +88,16 @@ int main(int argc, const char * argv[]) {
     cout << &monPointeur << endl; // on affiche l'adresse memoire de monPointeur
     
     cout  << (*monPointeur)[5] << endl; // on affiche l'index 5 de monArrayDynamique
+    
+    //Manual Pointeur
+    int *pointeur(0);
+    cout << pointeur << endl;
+    pointeur = new int;
+    cout << pointeur << endl; //le pointeur a maintenant l'adresse memoire d'un int
+    *pointeur = 12; //on peut maintenant setter une valeur au int
+    delete pointeur;  //On libère la case mémoire
+    pointeur= 0; //On indique que le pointeur ne pointe plus vers rien
+    
+    
     return 0;
 }
