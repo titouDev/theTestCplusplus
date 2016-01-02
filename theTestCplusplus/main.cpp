@@ -74,14 +74,11 @@ int main(int argc, const char * argv[]) {
     Duree duree1(1, 45, 50), duree2(1, 15, 50), duree3 (0, 8, 20);
     Duree resultat;
     
-    duree1.afficher();
-    cout << "+" << endl;
-    duree2.afficher();
-    cout << "+" << endl;
-    duree3.afficher();
-    
+    cout << duree1 << "+" << endl;
+    cout <<duree2 << "+" << endl;
     resultat = duree1 + duree2 + duree3;
     
-    cout << "=" << endl;
-    resultat.afficher();    return 0;
+    cout << resultat << endl;
+    
+    return 0;
 }

@@ -14,9 +14,9 @@ using namespace std;
 Duree::Duree(int heures, int minutes, int secondes) : m_heures(heures), m_minutes(minutes), m_secondes(secondes)
 {
 }
-void Duree::afficher()
+void Duree::afficher(ostream &flux) const
 {
-    cout << m_heures << "h" << m_minutes << "m" << m_secondes << "s" << endl;
+    flux << m_heures << "h" << m_minutes << "m" << m_secondes << "s";
 }
 
 bool Duree::estEgal(Duree const& b) const
@@ -43,6 +43,12 @@ Duree& Duree::operator+=(Duree const& a)
     m_heures += a.m_heures;
     
     return *this;
+}
+
+ostream &operator<<( ostream &flux, Duree const& duree)
+{
+    duree.afficher(flux) ;
+    return flux;
 }
 
 bool operator==(Duree const& a, Duree const& b)
