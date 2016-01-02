@@ -80,5 +80,13 @@ int main(int argc, const char * argv[]) {
     
     cout << resultat << endl;
     
+    //Pointeur
+    vector<int> *monPointeur(0); //on initialise le pointeur a zero, pour etre certain de ne pas prendre une adresse memoire aleatoire
+    cout << monPointeur << endl;
+    monPointeur = &monArrayDynamique; //on stocke l'adresse memoire de mon array dynamique dans monPointeur
+    cout << monPointeur << endl; //on affiche l'adresse memoire de monArrayDynamique
+    cout << &monPointeur << endl; // on affiche l'adresse memoire de monPointeur
+    
+    cout  << (*monPointeur)[5] << endl; // on affiche l'index 5 de monArrayDynamique
     return 0;
 }
